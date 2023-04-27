@@ -1,9 +1,19 @@
+---
+title: linux
+description: 
+published: true
+date: 2023-04-27T12:47:15.231Z
+tags: 
+editor: markdown
+dateCreated: 2023-04-27T12:44:16.185Z
+---
+
 # Step by step Linux monitoring
 
 ## Setup structure and scripts on the server
 
 ### Create the structure on the server with this block command
-To create the folder strucutre on the server, you just need to run this command block or run the script from the git (https://git.wird.cloud/cortex/monitoring/tree/master/Scripts%20PRTG):
+To create the folder strucutre on the server, you just need to run this command block or run the script from the git :
 ```
 if [ ! -d "/var/prtg" ]; then
 mkdir /var/prtg /var/prtg/scripts /var/prtg/scriptsxml
@@ -17,7 +27,7 @@ fi
 ```
 
 ### Create the script to check the process
-Like the last setp, you just need to run the following block command or copy the script from the git (https://git.wird.cloud/cortex/monitoring/tree/master/Scripts%20PRTG)
+Like the last setp, you just need to run the following block command or copy the script from the git 
 ```
 echo '
 #!/bin/bash
@@ -34,7 +44,7 @@ echo $msg
 
 
 ### Create the script to check the RAM
-On this step, you'll need to copy the script into the server, as it's a little bit long. The easy way is to copy it from the git (https://git.wird.cloud/cortex/monitoring/tree/master/Scripts%20PRTG)
+On this step, you'll need to copy the script into the server, as it's a little bit long. The easy way is to copy it from the git )
 
 
 ## Create device in PRTG
